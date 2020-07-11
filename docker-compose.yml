@@ -10,8 +10,8 @@ services:
     ports:
       - 5549:8080
       - 50000:50000
-    environment:
-      - JENKINS_USER=JENKINS_USER
+#    environment:
+#      - JENKINS_USER=JENKINS_USER
     volumes:
       - /var/www/html/respberryvision/loterioma/jenkins-workspace:/var/jenkins_home/workspace
       - /var/www/html/raspberryvision/loterioma/jenkins:/var/jenkins_home
